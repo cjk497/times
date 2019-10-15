@@ -1,22 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.listing {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
 }
 
-.App-link {
-  color: #09d3ac;
+.date {
+  margin-top: 10px;
+  flex: 20%;
+  color: gray;
+
+}
+
+.content {
+  flex-direction: column;
+  align-content: left;
+  flex: 70%;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.title {
+  font-size: 36px;
+  font-family: Georgia;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-family: Georgia;
+  margin-bottom: 15px;
+}
+
+.author {
+  color: gray;
+  font-size: 12px;
+}
+
+.image {
+  flex: 10%;
+}
+
+img {
+  max-height: 300px;
+  max-width: 300px;
 }
